@@ -1,0 +1,72 @@
+﻿@model Topicos.Models.AdminActions
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Borrar</title>
+</head>
+<body>
+    <h3>Esta seguro que quiere borrar este ticket?</h3>
+    <div>
+        <h4>AdminActions</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.idTicket)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.idTicket)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.descripcion)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.descripcion)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.detalles)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.detalles)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.solucion)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.solucion)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.status)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.status)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="Borrar" class="btn btn-default" /> |
+                @Html.ActionLink("Regresar a la pagina principal", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>

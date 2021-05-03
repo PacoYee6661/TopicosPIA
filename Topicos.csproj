@@ -107,7 +107,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\AccountActions.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\AdminActions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +128,11 @@
     <Content Include="Views\AccountActions\Index.cshtml" />
     <Content Include="Views\Admin\Login.cshtml" />
     <Content Include="Views\AdminActions\Index.cshtml" />
+    <Content Include="Views\AdminActions\Delete.cshtml" />
+    <Content Include="Views\AdminActions\Edit.cshtml" />
+    <Content Include="Views\AdminActions\List.cshtml" />
+    <Content Include="Views\AccountActions\Create.cshtml" />
+    <Content Include="Views\AccountActions\Details.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
