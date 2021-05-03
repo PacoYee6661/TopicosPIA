@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_LayoutLogin.cshtml";
+}
+<head id="Head1" runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+    <style type="text/css">
+
+        body {
+            background-image: url('../../images/Fondo.jpg');
+            background-size: 100% 100%;
+        }
+
+        a:link, a:visited {
+            text-decoration: none;
+            padding: 15px;
+            font-family: Helvetica;
+            text-transform: uppercase;
+            padding-left: 10px;
+            padding-right: 15px;
+            font-weight: 200;
+            font-size: 25px;
+            color: black;
+            width: 270px;
+            height: 30px;
+            text-align: center;
+            display: inline-block;
+            margin: 25px 50px 0 50px;
+            background-color: #f7e055;
+        }
+
+        a:hover {
+            color: #000000;
+            background-color: #ffde1d;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <hr />
+    <center>
+        <img src="~/images/LOGO.png" />
+    </center>
+    <h1>
+        <center> Bienvenido a la mesa de ayuda de Pizza Deprizza</center>
+    </h1>
+    <center>
+        <ul id=”button”>
+            <li><a href="/Admin/Login">Administrador</a></li>
+            <li><a href="/Account/Login">Cliente</a></li>
+        </ul>
+        <br />
+    </center>
+</body>

@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace Topicos.Controllers
+{
+    public class AdminActionsController : Controller
+    {
+        // GET: AdminActions
+        public ActionResult Index()
+        {
+            return View();
+        }
+    }
+}
