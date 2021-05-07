@@ -110,7 +110,10 @@
     <Compile Include="Models\AccountActions.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\AdminActions.cs" />
+    <Compile Include="Models\IAccountActions.cs" />
+    <Compile Include="Models\RepositorioAccountActions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -132,7 +135,6 @@
     <Content Include="Views\AdminActions\Edit.cshtml" />
     <Content Include="Views\AdminActions\List.cshtml" />
     <Content Include="Views\AccountActions\Create.cshtml" />
-    <Content Include="Views\AccountActions\Details.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

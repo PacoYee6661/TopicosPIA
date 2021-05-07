@@ -11,6 +11,7 @@ namespace Topicos.Models
         //Puede que se necesiten cambiar a char
         public string descripcion { get; set; }
         public string detalles { get; set; }
+        public string solucion { get; set; }
         public string status { get; set; }
     }
 }

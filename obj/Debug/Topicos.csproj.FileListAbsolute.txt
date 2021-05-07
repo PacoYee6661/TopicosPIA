@@ -73,3 +73,5 @@ C:\Users\Paco Yee\source\repos\Topicos\obj\Debug\Topicos.csproj.CoreCompileInput
 C:\Users\Paco Yee\source\repos\Topicos\obj\Debug\Topicos.csproj.CopyComplete
 C:\Users\Paco Yee\source\repos\Topicos\obj\Debug\Topicos.dll
 C:\Users\Paco Yee\source\repos\Topicos\obj\Debug\Topicos.pdb
+C:\Users\Paco Yee\Desktop\TopicosPIA-main\obj\Debug\Topicos.dll
+C:\Users\Paco Yee\Desktop\TopicosPIA-main\obj\Debug\Topicos.pdb
